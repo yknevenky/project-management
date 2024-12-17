@@ -1,0 +1,24 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_7350ed45ed6e9e8e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7350ed45ed6e9e8e | /usr/bin/gzip >> ./assetplus.dev/private/backups/20241217_000002-assetplus_dev-database.sql.gz
+
+Backup Summary for assetplus.dev at 2024-12-17 00:00:03.711032
+Config  : /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_000002-assetplus_dev-site_config_backup.json 127.0B
+Database: /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_000002-assetplus_dev-database.sql.gz 1.1MiB
+Backup for Site assetplus.dev has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7350ed45ed6e9e8e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7350ed45ed6e9e8e | /usr/bin/gzip >> ./assetplus.dev/private/backups/20241217_060002-assetplus_dev-database.sql.gz
+
+Backup Summary for assetplus.dev at 2024-12-17 06:00:03.101381
+Config  : /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_060002-assetplus_dev-site_config_backup.json 127.0B
+Database: /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_060002-assetplus_dev-database.sql.gz 1.1MiB
+Backup for Site assetplus.dev has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7350ed45ed6e9e8e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7350ed45ed6e9e8e | /usr/bin/gzip >> ./assetplus.dev/private/backups/20241217_120001-assetplus_dev-database.sql.gz
+
+Backup Summary for assetplus.dev at 2024-12-17 12:00:02.832613
+Config  : /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_120001-assetplus_dev-site_config_backup.json 248.0B
+Database: /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_120001-assetplus_dev-database.sql.gz 1.1MiB
+Backup for Site assetplus.dev has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_7350ed45ed6e9e8e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _7350ed45ed6e9e8e | /usr/bin/gzip >> ./assetplus.dev/private/backups/20241217_180002-assetplus_dev-database.sql.gz
+
+Backup Summary for assetplus.dev at 2024-12-17 18:00:05.586523
+Config  : /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_180002-assetplus_dev-site_config_backup.json 248.0B
+Database: /home/noshack/assetplus/project-management/sites/assetplus.dev/private/backups/20241217_180002-assetplus_dev-database.sql.gz 1.1MiB
+Backup for Site assetplus.dev has been successfully completed

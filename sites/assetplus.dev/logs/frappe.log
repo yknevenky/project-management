@@ -1,0 +1,15 @@
+2024-12-17 14:47:48,890 ERROR frappe New Exception collected in error log
+Site: assetplus.dev
+Form Dict: {}
+2024-12-17 16:48:42,845 ERROR frappe New Exception collected in error log
+Site: assetplus.dev
+Form Dict: {'cmd': 'erpnext.projects.doctype.project.api.generate_tasks'}
+2024-12-17 16:55:23,253 ERROR frappe New Exception collected in error log
+Site: assetplus.dev
+Form Dict: {'cmd': 'erpnext.projects.doctype.project.api.generate_tasks'}
+2024-12-17 16:57:52,339 ERROR frappe New Exception collected in error log
+Site: assetplus.dev
+Form Dict: {'cmd': 'erpnext.projects.doctype.project.api.generate_tasks'}
+2024-12-17 17:32:58,440 ERROR frappe New Exception collected in error log
+Site: assetplus.dev
+Form Dict: {'cmd': 'erpnext.projects.doctype.project.api.assign_tasks'}

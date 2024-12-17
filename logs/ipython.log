@@ -1,0 +1,60 @@
+2024-12-17 07:13:54,210 INFO ipython === bench console session ===
+2024-12-17 07:13:54,211 INFO ipython frappe.db.get_list("Project")
+2024-12-17 07:13:54,211 INFO ipython frappe.db.get_list("Task")
+2024-12-17 07:13:54,211 INFO ipython projects = frappe.db.get_list("Project")
+2024-12-17 07:13:54,212 INFO ipython for proj in projects:\
+    print(proj.dependent_tasks)
+2024-12-17 07:13:54,212 INFO ipython projects = frappe.db.get_list("Project", fields=['dependent_tasks'])
+2024-12-17 07:13:54,212 INFO ipython for proj in projects:\
+    print(proj.dependent_tasks)
+2024-12-17 07:13:54,212 INFO ipython for proj in projects:\
+    print(proj.dependent_tasks)
+2024-12-17 07:13:54,212 INFO ipython projects = frappe.db.get_list("Project")
+2024-12-17 07:13:54,213 INFO ipython for proj in projects:\
+    print(proj.dependent_tasks)
+2024-12-17 07:13:54,213 INFO ipython projects = frappe.db.get_list("Project", fields=['subject', 'dependent_tasks'])
+2024-12-17 07:13:54,213 INFO ipython projects = frappe.db.get_list("Project", fields=['subject', 'tasks'])
+2024-12-17 07:13:54,213 INFO ipython projects = frappe.db.get_list("Project", fields=[*])
+2024-12-17 07:13:54,213 INFO ipython projects = frappe.db.get_list("Project")
+2024-12-17 07:13:54,214 INFO ipython projects
+2024-12-17 07:13:54,214 INFO ipython projects = frappe.db.get_list("Project", fields="*")
+2024-12-17 07:13:54,214 INFO ipython projects
+2024-12-17 07:13:54,214 INFO ipython tasks = frappe.db.get_list("Task", fields="*")
+2024-12-17 07:13:54,214 INFO ipython for task in tasks:\
+    print(task.dependent_tasks)
+2024-12-17 07:13:54,215 INFO ipython tasks
+2024-12-17 07:13:54,215 INFO ipython for task in tasks:\
+    if(task.project is not None):
+        print(task.subject)
+2024-12-17 07:13:54,215 INFO ipython for task in tasks:\
+    if task.project is not None:
+        print(task.subject)
+2024-12-17 07:13:54,215 INFO ipython for task in tasks:\
+    print(task.subject)
+2024-12-17 07:13:54,215 INFO ipython for task in tasks:\
+    if task.project is not None:
+        print(task.subject)
+2024-12-17 07:13:54,216 INFO ipython for task in tasks:
+    if task.project is not None:
+        print(task.subject)
+        
+2024-12-17 07:13:54,216 INFO ipython for task in tasks:
+    if task.project is not None:
+        print(task.subject)
+        print(task.project)
+        
+2024-12-17 07:13:54,216 INFO ipython for task in tasks:
+    if task.project is not None:
+        print(task.subject)
+        print(task.project)
+        
+2024-12-17 07:13:54,216 INFO ipython for task in tasks:\
+    if task.project is not None:
+        print(task.subject)
+        print(task.project)
+2024-12-17 07:13:54,217 INFO ipython for task in tasks:
+    if task.project is not None:
+        print(task.subject)
+        print(task.project)
+        
+2024-12-17 07:13:54,217 INFO ipython === session end ===

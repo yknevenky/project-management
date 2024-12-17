@@ -1,0 +1,154 @@
+2024-12-16 21:43:09,517 DEBUG cd project-management && python3 -m venv env
+2024-12-16 21:43:12,663 DEBUG cd project-management && /home/noshack/assetplus/project-management/env/bin/python -m pip install --quiet --upgrade pip
+2024-12-16 21:43:14,199 DEBUG cd project-management && /home/noshack/assetplus/project-management/env/bin/python -m pip install --quiet wheel
+2024-12-16 21:43:14,894 LOG Getting frappe
+2024-12-16 21:43:14,894 DEBUG cd project-management/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-12-16 21:43:20,799 LOG Installing frappe
+2024-12-16 21:43:20,799 DEBUG cd /home/noshack/assetplus/project-management && /home/noshack/assetplus/project-management/env/bin/python -m pip install --quiet --upgrade -e /home/noshack/assetplus/project-management/apps/frappe 
+2024-12-16 21:43:58,536 DEBUG cd /home/noshack/assetplus/project-management/apps/frappe && yarn install --check-files
+2024-12-16 21:44:06,496 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-12-16 21:44:06,496 DEBUG cd project-management && bench build
+2024-12-16 21:44:06,677 INFO /home/noshack/.local/bin/bench build
+2024-12-16 21:44:48,213 LOG setting up backups
+2024-12-16 21:44:48,233 LOG backups were set up
+2024-12-16 21:44:48,233 INFO Bench project-management initialized
+2024-12-16 21:45:13,436 INFO /home/noshack/.local/bin/bench new-site assetplus.dev
+2024-12-16 21:46:23,845 INFO /home/noshack/.local/bin/bench use assetplus.dev
+2024-12-16 21:46:28,619 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:46:28,948 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 21:46:28,951 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 21:46:28,993 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 21:46:29,006 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 21:49:53,651 INFO /home/noshack/.local/bin/bench --site assetplus.dev add-to-hosts
+2024-12-16 21:50:11,577 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:50:11,854 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 21:50:11,857 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 21:50:11,872 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 21:50:11,894 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 21:50:47,937 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:50:48,208 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 21:50:48,213 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 21:50:48,216 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 21:50:48,272 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 21:51:30,720 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:53:04,799 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:53:05,116 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 21:53:05,137 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 21:53:05,158 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 21:53:05,166 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 21:55:30,688 INFO /home/noshack/.local/bin/bench use assetplus.dev
+2024-12-16 21:55:45,872 INFO /home/noshack/.local/bin/bench start
+2024-12-16 21:55:46,127 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 21:55:46,131 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 21:55:46,139 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 21:55:46,187 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 21:58:24,541 INFO /home/noshack/.local/bin/bench --site assetplus.dev install-app erpnext
+2024-12-16 21:58:51,212 INFO /home/noshack/.local/bin/bench get-app erpnext
+2024-12-16 21:59:01,875 LOG Getting erpnext
+2024-12-16 21:59:01,876 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2024-12-16 21:59:13,287 LOG Installing erpnext
+2024-12-16 21:59:13,287 DEBUG cd /home/noshack/assetplus/project-management && /home/noshack/assetplus/project-management/env/bin/python -m pip install --quiet --upgrade -e /home/noshack/assetplus/project-management/apps/erpnext 
+2024-12-16 21:59:21,460 DEBUG cd /home/noshack/assetplus/project-management/apps/erpnext && yarn install --check-files
+2024-12-16 21:59:22,084 DEBUG bench build --app erpnext
+2024-12-16 21:59:22,215 INFO /home/noshack/.local/bin/bench build --app erpnext
+2024-12-16 21:59:27,070 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-12-16 21:59:41,905 INFO /home/noshack/.local/bin/bench --site assetplus.dev install-app erpnext
+2024-12-16 22:00:13,518 INFO /home/noshack/.local/bin/bench new-site assetplus.dev
+2024-12-16 22:01:33,026 INFO /home/noshack/.local/bin/bench --site assetplus.dev install-app erpnext
+2024-12-16 22:03:22,656 INFO /home/noshack/.local/bin/bench start
+2024-12-16 22:03:22,932 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 22:03:22,943 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 22:03:22,965 INFO /home/noshack/.local/bin/bench schedule
+2024-12-16 22:03:22,967 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 22:03:39,421 INFO /home/noshack/.local/bin/bench --site assetplus.dev install-app erpnext
+2024-12-16 22:04:03,371 INFO /home/noshack/.local/bin/bench start
+2024-12-16 22:04:03,631 INFO /home/noshack/.local/bin/bench watch
+2024-12-16 22:04:03,639 INFO /home/noshack/.local/bin/bench worker
+2024-12-16 22:04:03,675 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-16 22:04:03,689 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 00:00:02,187 INFO /home/noshack/.local/bin/bench --verbose --site all backup
+2024-12-17 06:00:01,678 INFO /home/noshack/.local/bin/bench --verbose --site all backup
+2024-12-17 06:48:46,700 INFO /home/noshack/.local/bin/bench --site assetplus.dev console
+2024-12-17 07:13:56,695 INFO /home/noshack/.local/bin/bench --site assetplus.dev console
+2024-12-17 07:21:48,652 INFO /home/noshack/.local/bin/bench --site assetplus.dev console
+2024-12-17 08:29:26,002 INFO /home/noshack/.local/bin/bench --site assetplus.dev set-config developer_mode 1
+2024-12-17 08:29:34,231 INFO /home/noshack/.local/bin/bench start
+2024-12-17 08:29:56,421 INFO /home/noshack/.local/bin/bench start
+2024-12-17 08:32:49,910 INFO /home/noshack/.local/bin/bench start
+2024-12-17 08:32:50,226 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 08:32:50,232 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 08:32:50,274 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 08:32:50,278 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 08:57:51,838 INFO /home/noshack/.local/bin/bench restart
+2024-12-17 08:57:51,845 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-12-17 08:57:56,130 INFO /home/noshack/.local/bin/bench start
+2024-12-17 08:57:56,395 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 08:57:56,403 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 08:57:56,407 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 08:57:56,453 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 08:58:47,574 INFO /home/noshack/.local/bin/bench set-config -g developer_mode 1
+2024-12-17 08:58:50,550 INFO /home/noshack/.local/bin/bench start
+2024-12-17 08:58:50,808 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 08:58:50,822 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 08:58:50,861 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 08:58:50,868 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:17:25,376 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 09:17:28,327 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:17:28,621 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:17:28,642 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:17:28,653 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:17:28,665 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:30:34,432 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:30:34,734 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:30:34,746 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:30:34,746 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:30:34,753 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:30:37,577 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 09:30:39,943 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:30:40,203 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:30:40,203 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:30:40,203 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:30:40,272 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:32:11,856 INFO /home/noshack/.local/bin/bench --site assetplus.dev set-config server_script_enabled 1
+2024-12-17 09:32:20,467 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 09:32:23,600 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:32:23,866 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:32:23,871 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:32:23,908 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:32:23,921 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:33:18,775 INFO /home/noshack/.local/bin/bench --site assetplus.dev set-config server_script_enabled true
+2024-12-17 09:33:22,789 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 09:33:25,541 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:33:25,809 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:33:25,814 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:33:25,871 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:33:25,874 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 09:34:11,304 INFO /home/noshack/.local/bin/bench set-config -g server_script_enabled 1
+2024-12-17 09:34:17,231 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 09:34:20,290 INFO /home/noshack/.local/bin/bench start
+2024-12-17 09:34:20,542 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 09:34:20,542 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 09:34:20,561 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 09:34:20,612 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 12:00:01,310 INFO /home/noshack/.local/bin/bench --verbose --site all backup
+2024-12-17 12:25:52,746 INFO /home/noshack/.local/bin/bench --site assetplus.dev console
+2024-12-17 12:29:15,419 INFO /home/noshack/.local/bin/bench start
+2024-12-17 12:29:15,751 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 12:29:15,763 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 12:29:15,768 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 12:29:15,774 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 14:46:10,118 INFO /home/noshack/.local/bin/bench start
+2024-12-17 14:46:10,396 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 14:46:10,410 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 14:46:10,426 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 14:46:10,448 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 16:04:52,440 INFO /home/noshack/.local/bin/bench start
+2024-12-17 16:04:52,838 INFO /home/noshack/.local/bin/bench serve --port 8000
+2024-12-17 16:04:52,877 INFO /home/noshack/.local/bin/bench schedule
+2024-12-17 16:04:52,899 INFO /home/noshack/.local/bin/bench worker
+2024-12-17 16:04:52,914 INFO /home/noshack/.local/bin/bench watch
+2024-12-17 16:16:24,888 INFO /home/noshack/.local/bin/bench clear-cache
+2024-12-17 16:16:29,294 INFO /home/noshack/.local/bin/bench --site assetplus.dev console
+2024-12-17 16:45:06,754 INFO /home/noshack/.local/bin/bench --site assetplus.dev mariadb
+2024-12-17 16:45:36,105 INFO /home/noshack/.local/bin/bench --site assetplus.dev mariadb
+2024-12-17 18:00:02,164 INFO /home/noshack/.local/bin/bench --verbose --site all backup
